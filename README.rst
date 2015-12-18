@@ -9,6 +9,13 @@ Formulas to set up and configure php and various php libraries.
     See the full `Salt Formulas installation and usage instructions
     <http://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html>`_.
 
+PHP7
+====
+
+To use PHP7 on Ubuntu you can set `use_ppa: True` and `ppa_name: ondrej/php-7.0`.
+
+Other distros are currently not supported.
+
 Available states
 ================
 
